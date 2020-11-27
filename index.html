@@ -1,56 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title ></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="primary-slideshow">
-                <h1 class="name">Benjamin Code</h1>
-                <h1 class="name">Benjamin Code</h1>
-                <h1 class="name">Benjamin Code</h1>
-                <h1 class="name">Benjamin Code</h1>
-                <h1 class="name">Benjamin Code</h1>
+   <header>
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="navbar-brand">
+              <a href='index.html'><img src='logo.png' width="100px" height ="100px" alt='Logo' class="logo"></a> 
             </div>
-            <div class="secondary-slideshow">
-                <h2 class="job">fullstack, creative developper and youtuber</h2>
-                <h2 class="job">fullstack, creative developper and youtuber</h2>
-                <h2 class="job">fullstack, creative developper and youtuber</h2>
-                <h2 class="job">fullstack, creative developper and youtuber</h2>
-                <h2 class="job">fullstack, creative developper and youtuber</h2>
-                <h2 class="job">fullstack, creative developper and youtuber</h2>
-            </div>
-        </header>
-        <div class="content">
-            <div class="photo-animation">
-                <div class="circle big circle-big"></div>
-                <img src="assets/images/benjamincode-short.png" alt="main photo" class="photo">
-                <div class="circle small circle-small"></div>
-            </div>
-            <main class="main">
-                <p class="presentation"><span class="italic">Benjamin Code est un déve… </span> Bon en vrai c’est moi qui écrit le texte donc autant ne pas l’écrire à la 3ème personne. Je suis développeur freelance depuis 8 ans.<br><br>
-                J’ai un diplôme d’ingénieur en informatique, spécialisé dans le génie logiciel mais tout le monde s’en fiche et je n’ai jamais eu à le montrer à quiconque pour justifier quoi que ce soit. Les <span class="underline">années d’expériences</span> et les <span class="underline">nombreux clients</span> satisfaits sont mes meilleures arguments de ventes.<br><br>
-                Si vous vous avez un projet pour moi, n’hésitez pas à me contacter par mail :</p>
-                <svg class="mail-icon" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                viewBox="0 0 238.11 155.91" style="enable-background:new 0 0 238.11 155.91;" xml:space="preserve"><path d="M118.85,156.4c-34.94,0-69.88-0.04-104.81,0.04c-6.18,0.01-10.91-2.28-13.63-7.79c-1.06-2.14-1.5-4.78-1.51-7.2
-                c-0.09-42.31,0-84.62-0.12-126.94C-1.24,5.47,5.77-0.55,14.04-0.53c69.88,0.16,139.75,0.17,209.63,0
-                c8.43-0.02,15.44,6.01,15.4,15.42c-0.17,42.06-0.17,84.13,0,126.19c0.04,9.41-6.97,15.48-15.4,15.42
-                C188.73,156.26,153.79,156.4,118.85,156.4z M118.91,147.24c34.61,0,69.23,0,103.84,0c5.56,0,6.99-1.41,6.99-6.89
-                c0-41.57,0-83.15,0-124.72c0-5.48-1.43-6.9-6.99-6.9c-69.23,0-138.46,0-207.68,0c-5.54,0-6.99,1.43-6.99,6.89
-                c0,41.57,0,83.15,0,124.72c0,5.46,1.45,6.89,6.98,6.9C49.69,147.24,84.3,147.24,118.91,147.24z"/><path d="M19.7,26.59c1.61-2.79,3.02-5.23,4.55-7.88c0.83,0.43,1.62,0.8,2.38,1.23c29.38,16.78,58.78,33.53,88.12,50.39
-                c3.05,1.75,5.52,1.68,8.54-0.06c29.48-16.95,59.02-33.78,88.55-50.64c0.5-0.29,1.02-0.55,1.82-0.98c1.49,2.56,2.97,5.1,4.6,7.89
-                c-0.97,0.58-1.87,1.14-2.78,1.66c-28.95,16.54-57.95,32.99-86.81,49.68c-6.69,3.87-12.65,3.91-19.39,0.01
-                C80.79,61.37,52.14,45.14,23.55,28.81C22.34,28.11,21.13,27.41,19.7,26.59z"/> <path d="M94.51,80.58c1.62,2.85,3.05,5.36,4.58,8.03c-24.99,14.27-49.8,28.44-74.87,42.75c-1.5-2.6-2.97-5.15-4.62-8
-                C44.55,109.11,69.41,94.92,94.51,80.58z"/><path d="M218.16,123.34c-1.61,2.8-3.08,5.36-4.6,8.01c-24.24-13.84-48.33-27.59-72.64-41.47c1.53-2.69,2.99-5.25,4.57-8.03
-                C169.72,95.69,193.84,109.46,218.16,123.34z"/></svg>
-                <a href="#" class="mail">b1jam1code@gmail.com</a>
-            </main>
-        </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+         
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav mr-auto">
+                     <li class="nav-item active"><a href="#acceuil"><svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
+                        <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                      </svg>Acceuil</a></li>
+                    <li class="nav-item "> <a href="#service"><svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-patch-question-fll" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M5.933.87a2.89 2.89 0 0 1 4.134 0l.622.638.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636zM7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm1.602-2.027c-.05.386-.218.627-.554.627-.377 0-.585-.317-.585-.745v-.11c0-.727.307-1.208.926-1.641.614-.44.822-.762.822-1.325 0-.638-.42-1.084-1.03-1.084-.55 0-.916.323-1.074.914-.109.364-.292.51-.564.51C6.203 6.12 6 5.873 6 5.48c0-.251.045-.468.139-.69.307-.798 1.079-1.29 2.099-1.29 1.341 0 2.262.902 2.262 2.227 0 .896-.376 1.511-1.05 1.986-.648.445-.806.726-.846 1.26z"/>
+                      </svg>Service</a></li>
+                     <li class="nav-item "><a href="#contact"><svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+                      </svg></span>Contact</a></li>
+                 </ul>
+                
+             <div class="navbar-text">
+                   <input type="text" id ="search" placeholder="Search"><a href=""><svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                  </svg></a>
+             </div>
+             </div>
     </div>
-    <script src="js/script.js"></script>
+  </nav>
+</header>
+<div id ="main-content">
+<section class="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="computer science 1440 x 400.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="computer science 1440 x 400.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="computer science 1440 x 400.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+</section>
+<section id ="cards">
+  <div class="container">
+    <div class="row">
+      <article >
+        <div class="image">
+         <img src="html.png" width = "300px">
+        </div>
+         <p>Le HyperText Markup Language,<br>
+           généralement abrégé HTML <br>ou dans sa dernière version HTML5,<br> 
+           est le langage de balisage conçu pour<br> représenter les pages web.<br>
+           <span id="lire-plus"><a href="">Lire plus</a></span></p>
+      </article>
+      <article>
+       <div class="image"> 
+         <img src="css3.png" width = "300px">
+        </div>
+        <p>Les feuilles de style en cascade1,<br>
+           généralement appelées CSS <br>de l'anglais Cascading Style Sheets,<br>
+            forment un langage informatique qui décrit <br>
+            la présentation des documents HTML <br>
+          <span id="lire-plus"><a href="">Lire plus</a></span></p>
+     </article>
+     <article>
+     <div class="image">
+       <img src="bootstrap.png" width = "300px">
+      </div>
+      <p>Bootstrap est une collection d'outils <br>
+        utiles à la création du design <br>
+        (graphisme, animation etc) <br>
+        de sites et d'applications web.<br><br>
+        <span id="lire-plus"><a href="">Lire plus</a></span></p>
+   </article>
+    </div>
+  </div>
+</section>
+<h2>Notre équipe</h2>
+<section id="equipe">
+  
+  <div class="container">
+    <div class="row">
+  
+  <article>
+  <div class="cercle"><img src="personne.jpg" width="300px"></div>
+    <p>Lorem ipsum dolor sit amet consectetur, <br>
+      adipisicing elit. <br>Tenetur minima repellat odit non dolor.<br>
+    Lorem ipsum dolor sit,<br> amet consectetur adipisicing elit.  </p>
+  </article>
+  <article>
+    <div class="cercle"><img src="personne.jpg" width="300px"></div>
+    <p>Lorem ipsum dolor sit amet consectetur, <br>
+      adipisicing elit. <br>Tenetur minima repellat odit non dolor.<br>
+    Lorem ipsum dolor sit,<br> amet consectetur adipisicing elit.</p>
+  </article>
+  <article>
+    <div class="cercle"><img src="personne.jpg" width="300px"></div>
+    <p>Lorem ipsum dolor sit amet consectetur, <br>
+      adipisicing elit. <br>Tenetur minima repellat odit non dolor.<br>
+    Lorem ipsum dolor sit,<br> amet consectetur adipisicing elit.</p>
+  </article>
+ </div>
+</div>
+</section>
+</div>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div id="info">
+        <ul>
+          <li>
+            <svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+            </svg>
+            <span>+212 06 06 06 06 </span>
+          </li>
+       
+         <li>
+            <svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+            </svg>
+            <span>XXXXX@XXX.com</span>
+         </li>
+    
+        <li>
+         <svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-geo-alt-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            </svg>
+            <span>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit.</span>
+        </li>
+    </ul>
+      </div>
+    <div id="carte">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3297.603235797869!2d-6.584772814705131!3d34.25866651427207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda759e405b8c3a1%3A0x9be254e43555ea5f!2sKenitra%20mall!5e0!3m2!1sar!2sma!4v1606417946981!5m2!1sar!2sma" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    </div>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
-</html>
